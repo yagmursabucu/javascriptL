@@ -1,5 +1,5 @@
 <html>
-<head><title>JAvaScript DOM</title>
+<head><title>JavaScript DOM</title>
 <style>
 .red{
     background-color:red;
@@ -19,9 +19,20 @@
 <body>
 <h1 class="test">Lorem ipsum dolor sit amet consectetuer adipiscing 
 elit</h1>
+<a href="https://placeholder.com">
+<img src="https://via.placeholder.com/200/bbbccc/000000">
+</a>
+
+<img src="https://via.placeholder.com/250x150/0eeee0/ffffff">
 
 <script>
-
+var el1=document.getElementsByTagName('a');
+console.log(el1[0]);
+var el2=document.getElementsByTagName('img');
+console.log(el2[1]);
+var temp=el1[0].getAttribute('href');
+el1[0].setAttribute('href','http://www.google.com');
+var tem
 </script>
 </body>
 </html>
